@@ -1,0 +1,59 @@
+@import 'bootstrap';
+// @font-face {
+//   font-family: 'PacMan';
+//   src: url('kelly/pac.ttf');
+// }
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+body {
+  background-image: url('https://www.cheatsheet.com/wp-content/uploads/2018/08/Movie_Theater_2015.jpg');
+  background-size: 100%;
+}
+
+.jumbotron {
+  background-image: url('https://i.ytimg.com/vi/ysSLI_tIhuE/maxresdefault.jpg');
+  background-size: contain;
+  color: white;
+}
+
+.container {
+  height: 100%;
+}
+
+.img {
+  width: auto;
+  height: auto;
+}
+
+.titlePicture {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: rgb(199, 199, 199);
+  font-size: 120%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5rem;
+}
+
+.list-group-item {
+  display: flex;
+  background-color: rgb(243, 87, 66);
+}
+
+.plot {
+  color: whitesmoke;
+  font-family: fantasy;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.release {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: rgb(199, 199, 199);
+  min-width: 5rem;
+  margin-left: 1rem;
+}
